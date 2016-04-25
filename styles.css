@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "Variane";
-    src: url(./freogala/assets/font/VarianeScript.ttf);
+    src: url(./assets/font/VarianeScript.ttf);
 }
 
 @font-face {
     font-family: "Simplifica";
-    src: url(./freogala/assets/font/Simplifica.ttf);
+    src: url(./assets/font/Simplifica.ttf);
 }
 
 body {
@@ -79,7 +79,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('./freogala/assets/image/DotMask.png');
+    background-image: url('./assets/image/DotMask.png');
     z-index: 1;
 }
 
