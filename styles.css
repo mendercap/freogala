@@ -55,19 +55,19 @@ body {
 /* Background images */
 
 #home {
-    background: url(/assets/image/01.jpeg) no-repeat fixed 50% 0 / cover;
+    background: url(./assets/image/01.jpeg) no-repeat fixed 50% 0 / cover;
 }
 
 #purpose { 
-    background: url(/assets/image/02.jpeg) no-repeat fixed 50% 0 / cover;
+    background: url(./assets/image/02.jpeg) no-repeat fixed 50% 0 / cover;
 }
 
 #sponsors { 
-    background: url(/assets/image/03.jpeg) no-repeat fixed 50% 0 / cover;
+    background: url(./assets/image/03.jpeg) no-repeat fixed 50% 0 / cover;
 }
 
 #tickets { 
-    background: url(/assets/image/04.jpeg) no-repeat fixed 50% 0 / cover;
+    background: url(./assets/image/04.jpeg) no-repeat fixed 50% 0 / cover;
 }
 
 
