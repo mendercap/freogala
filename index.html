@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="nav.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.js"></script>
 </head>
 
 <body>
@@ -21,7 +22,6 @@
             <p><span class="headerPresents">&#8226; presents &#8226;</span></p>
             <p><span class="headerTitle fade-in">Karnarj Wongin</span></p>
             <p><span class="headerDescription">An Outback Fusion Fundraising Gala</span></p>
-            <p><div class="arrow bounce"></div></p>
         </div>
     </div>
 
@@ -111,8 +111,14 @@
             <p>For ticket enquiries, please contact:
                 <br><span class="highlight">Lara Steel</span><br>
                 <a href="mailto:lara.steel@fremantleheadspace.com.au" target="_top">lara.steel@fremantleheadspace.com.au</a><br>
-                <a href="tel:0408587473">0408 587 473</tel></p>
-           </div>
-        
-        </div>
-        
+                <a href="tel:0408587473">0408 587 473</tel>
+            </p>
+        </div>        
+    </div>
+
+    <script>
+        $(window).scroll(function(){
+            $("#home .content").css("opacity", 1 - $(window).scrollTop() / 350);
+        });
+    </script>
+</body>
