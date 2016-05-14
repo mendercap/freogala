@@ -58,8 +58,8 @@ body {
     font-weight: normal;
     color: #4a4a4a;
     display: inline-block;
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding-top: 4.5em;
+    padding-bottom: 4.5em;
     position: relative;
     text-align: center;
     line-height: 1.4;
@@ -67,11 +67,6 @@ body {
     width: 800px;
     max-width: 95%;
 }
-
-.content:last-of-type {
-    padding-bottom: 1em;
-}
-
 
 /* Background images */
 
