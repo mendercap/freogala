@@ -68,6 +68,10 @@ body {
     max-width: 95%;
 }
 
+.content:last-of-type {
+    padding-bottom: 1em;
+}
+
 
 /* Background images */
 
@@ -159,9 +163,10 @@ h2 {
 }
 
 .madeBy {
+    padding-top: 5em;
     text-align: center;
     text-transform: uppercase;
-    font-size: 0.5em;
+    font-size: 0.4em;
 }
 
 /* Links */
